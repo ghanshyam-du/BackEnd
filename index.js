@@ -6,7 +6,7 @@ app.get('/home',(req,res) =>{
 })
 
 app.get('/profile',(req,res)=>{
-    res.send("his this is profile page");
+    res.send("his this is profile");
 })
 
 app.listen(4000);
